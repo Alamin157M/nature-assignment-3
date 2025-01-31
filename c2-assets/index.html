@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nature's Platter</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .font-sora > {
+        font-family: "Sora";
+      }
+    </style>
+  </head>
+  <body class="font-sora">
+    <header class="w-[100%] h-[1298px] bg-linear-to-t from-[#F5F2ED] mb-[80px]">
+      <div
+        class="flex justify-between align-middle items-center ml-[50px] mr-[30px] mt-[15px]"
+      >
+        <div>
+          <img src="/c2-assets/logo-header.png" alt="" />
+        </div>
+
+        <div>
+          <ul class="flex gap-8 font-normal ml-[130px]">
+            <li>Product</li>
+            <li>Services</li>
+            <li>Contact us</li>
+          </ul>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <i class="bx bx-search-alt-2 text-2xl"></i>
+          <i class="bx bx-cart-alt text-2xl"></i>
+          <button class="border h-[45px] w-[117px] rounded-[8px] font-normal">
+            Log In
+          </button>
+          <button
+            class="border h-[45px] w-[146px] rounded-[8px] bg-[#179800] text-white font-normal"
+          >
+            Register
+          </button>
+        </div>
+      </div>
+
+      <div class="mt-[80px]">
+        <h1 class="font-semibold text-[3.5rem] text-center">
+          Freshness
+          <span class="text-[#179800]"
+            >You Can<br />
+            Count</span
+          >
+          On, Prices You’ll Love!
+        </h1>
+        <p class="text-center font-light text-[1.25rem] mt-[15px]">
+          Shop your daily essentials at unbeatable prices. From fresh produce to
+          pantry <br />
+          staples, we’ve got you covered every day!
+        </p>
+      </div>
+
+      <div class="animate-bounce">
+        <img
+          class="m-auto mt-[75px]"
+          src="/c2-assets/hero-vegetables.png"
+          alt=""
+        />
+      </div>
+    </header>
+
+    <main>
+      <section class="services">
+        <h1
+          class="text-4xl text-[#179800] font-bold ml-[140px] mb-[80px] text-start"
+        >
+          Services
+        </h1>
+
+        <div class="flex gap-6 mb-[90px] justify-center">
+          <div class="bg-[#EFEBE3] w-[424px] h-[367px] rounded-[16px] p-[32px]">
+            <img
+              class="ml-[110px] bg-[#FFFF] rounded-[50%] h-[150px] w-[150px] p-[30px]"
+              src="/c2-assets/service.png"
+              alt=""
+            />
+            <h2
+              class="mt-[30px] text-center items-center justify-center font-semibold text-2xl"
+            >
+              24/7 Services
+            </h2>
+            <p
+              class="mt-[20px] text-center align-middle items-center font-light text-[20px] w-[360px]"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+          </div>
+
+          <div class="bg-[#EFEBE3] w-[424px] h-[367px] rounded-[16px] p-[32px]">
+            <img
+              class="ml-[110px] bg-[#FFFF] rounded-[50%] h-[150px] w-[150px] p-[30px]"
+              src="/c2-assets/delivery.png"
+              alt=""
+            />
+            <h2
+              class="mt-[30px] text-center items-center justify-center font-semibold text-2xl"
+            >
+              Fast Delivery
+            </h2>
+            <p
+              class="mt-[20px] text-center align-middle items-center font-light text-[20px] w-[360px]"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+          </div>
+
+          <div class="bg-[#EFEBE3] w-[424px] h-[367px] rounded-[16px] p-[32px]">
+            <img
+              class="ml-[110px] bg-[#FFFF] rounded-[50%] h-[150px] w-[150px] p-[30px]"
+              src="/c2-assets/healthy.png"
+              alt=""
+            />
+            <h2
+              class="mt-[30px] text-center items-center justify-center font-semibold text-2xl"
+            >
+              Healthy Products
+            </h2>
+            <p
+              class="mt-[20px] text-center align-middle items-center font-light text-[20px] w-[360px]"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="popular-products mb-[80px] p-[142px] h-[775px] bg-[#F5F2ED]"
+      >
+        <h1
+          class="text-4xl text-[#179800] font-bold ml-[0px] mb-[80px] text-start"
+        >
+          Popular Products
+        </h1>
+        <div class="flex">
+          <div
+            class="h-[402px] shadow-lg p-[30px] rounded-[16px]"
+          >
+            <h1 class="mt-[0px] text-5xl font-semibold text-purple-500">30% Off</h1>
+            <p class="mt-[20px] font-normal w-[260px]">
+              Discover a world of treats,toys and essentials handpicked for
+            </p>
+            <button
+              class="mt-[30px] border-none h-[45px] w-[146px] rounded-[8px] bg-[#FFFFFF] text-black font-semibold"
+            >
+              Buy Now
+            </button>
+            <img
+              class="ml-[40px] mt-[-64px]"
+              src="/c2-assets/vegetable-offer.png"
+              alt=""
+            />
+          </div>
+
+          <div class="flex flex-wrap-reverse gap-3 justify-center">
+
+            <div class="flex gap-4 h-[118px] w-[275px] rounded-[16px] p-[20px] bg-[#FFFFFF]">
+              <div class="bg-[#f5f2ed]">
+                <img class="h-[80px] w-[80px]" src="/c2-assets/onion.jpg" alt="">
+              </div>
+              <div>
+                <h2 class="flex gap-3 font-semibold text-xl"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 bg-orange-300 rounded-full">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                </svg> 4.5</h2> 
+               <p class="text-xl font-bold">Onion 1 Kg</p>
+               <p class="font-normal text-xl">$39.99</p>
+              </div>
+            </div>
+            
+            <div class="flex gap-4 h-[118px] w-[275px] rounded-[16px] p-[20px] bg-[#FFFFFF]">
+              <div class="bg-[#f5f2ed]">
+                <img class="h-[80px] w-[80px]" src="/c2-assets/onion.jpg" alt="">
+              </div>
+              <div>
+                <h2 class="flex gap-3 font-semibold text-xl"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 bg-orange-300 rounded-full">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                </svg> 4.5</h2> 
+               <p class="text-xl font-bold">Onion 1 Kg</p>
+               <p class="font-normal text-xl">$39.99</p>
+              </div>
+            </div>
+
+            <div class="flex gap-4 h-[118px] w-[275px] rounded-[16px] p-[20px] bg-[#FFFFFF]">
+              <div class="bg-[#f5f2ed]">
+                <img class="h-[80px] w-[80px]" src="/c2-assets/onion.jpg" alt="">
+              </div>
+              <div>
+                <h2 class="flex gap-3 font-semibold text-xl"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 bg-orange-300 rounded-full">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                </svg> 4.5</h2> 
+               <p class="text-xl font-bold">Onion 1 Kg</p>
+               <p class="font-normal text-xl">$39.99</p>
+              </div>
+            </div>
+
+            <div class="flex gap-4 h-[118px] w-[275px] rounded-[16px] p-[20px] bg-[#FFFFFF]">
+              <div class="bg-[#f5f2ed]">
+                <img class="h-[80px] w-[80px]" src="/c2-assets/onion.jpg" alt="">
+              </div>
+              <div>
+                <h2 class="flex gap-3 font-semibold text-xl"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 bg-orange-300 rounded-full">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                </svg> 4.5</h2> 
+               <p class="text-xl font-bold">Onion 1 Kg</p>
+               <p class="font-normal text-xl">$39.99</p>
+              </div>
+            </div>
+
+            <div class="flex gap-4 h-[118px] w-[275px] rounded-[16px] p-[20px] bg-[#FFFFFF]">
+              <div class="bg-[#f5f2ed]">
+                <img class="h-[80px] w-[80px]" src="/c2-assets/onion.jpg" alt="">
+              </div>
+              <div>
+                <h2 class="flex gap-3 font-semibold text-xl"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 bg-orange-300 rounded-full">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                </svg> 4.5</h2> 
+               <p class="text-xl font-bold">Onion 1 Kg</p>
+               <p class="font-normal text-xl">$39.99</p>
+              </div>
+            </div>
+
+            <div class="flex gap-4 h-[118px] w-[275px] rounded-[16px] p-[20px] bg-[#FFFFFF]">
+              <div class="bg-[#f5f2ed]">
+                <img class="h-[80px] w-[80px]" src="/c2-assets/onion.jpg" alt="">
+              </div>
+              <div>
+                <h2 class="flex gap-3 font-semibold text-xl"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 bg-orange-300 rounded-full">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                </svg> 4.5</h2> 
+               <p class="text-xl font-bold">Onion 1 Kg</p>
+               <p class="font-normal text-xl">$39.99</p>
+              </div>
+            </div>
+
+
+            <div class="flex gap-4 h-[118px] w-[275px] rounded-[16px] p-[20px] bg-[#FFFFFF]">
+              <div class="bg-[#f5f2ed]">
+                <img class="h-[80px] w-[80px]" src="/c2-assets/onion.jpg" alt="">
+              </div>
+              <div>
+                <h2 class="flex gap-3 font-semibold text-xl"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 bg-orange-300 rounded-full">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                </svg> 4.5</h2> 
+               <p class="text-xl font-bold">Onion 1 Kg</p>
+               <p class="font-normal text-xl">$39.99</p>
+              </div>
+            </div>
+
+            <div class="flex gap-4 h-[118px] w-[275px] rounded-[16px] p-[20px] bg-[#FFFFFF]">
+              <div class="bg-[#f5f2ed]">
+                <img class="h-[80px] w-[80px]" src="/c2-assets/onion.jpg" alt="">
+              </div>
+              <div>
+                <h2 class="flex gap-3 font-semibold text-xl"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 bg-orange-300 rounded-full">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                </svg> 4.5</h2> 
+               <p class="text-xl font-bold">Onion 1 Kg</p>
+               <p class="font-normal text-xl">$39.99</p>
+              </div>
+            </div>
+
+            <div class="flex gap-4 h-[118px] w-[275px] rounded-[16px] p-[20px] bg-[#FFFFFF]">
+              <div class="bg-[#f5f2ed]">
+                <img class="h-[80px] w-[80px]" src="/c2-assets/onion.jpg" alt="">
+              </div>
+              <div>
+                <h2 class="flex gap-3 font-semibold text-xl"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 bg-orange-300 rounded-full">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                </svg> 4.5</h2> 
+               <p class="text-xl font-bold">Onion 1 Kg</p>
+               <p class="font-normal text-xl">$39.99</p>
+              </div>
+            </div>
+
+          </div>
+      </section>
+
+
+      <section class="Arrival">
+        <h1
+        class="text-4xl text-[#179800] font-bold ml-[70px] mb-[80px] text-start"
+      >
+      Arrival & Offers
+      </h1>
+
+      <div class="mb-[80px] mx-auto my-auto flex">
+
+
+        <div class="w-[780px] h-[344px] p-[30px] bg-[#115414] rounded-[16px] mx-auto my-auto flex justify-between">
+          <div>
+            <img class="mt-[30px]" src="/c2-assets/dawat-logo.png" alt="">
+            <button class="mt-[30px] w-[334px] h-[65px] text-white font-semibold bg-[#63B76D] rounded-[13.29px]">Cook Exotic Dishes</button>
+            <h1 class="text-white font-bold text-3xl mt-[30px]">UP to 20% OFF</h1>
+          </div>
+          <div>
+            <img src="/c2-assets/dawat-mock-up.png" alt="">
+          </div>
+        </div>
+
+
+
+        <div class="w-[520px] h-[344px] bg-[#102861] rounded-[16px] mx-auto my-auto flex justify-between p-[30px] ">
+          <div>
+            <img src="/c2-assets/india-gate-logo.png" alt="">
+            <button class="mt-[30px] w-[280px] h-[65px] text-white font-semibold bg-[#2A4D97] rounded-[13.29px]">World’s No.1 Rice</button>
+            <h1 class="text-white font-bold text-3xl mt-[30px]">UP to 40% OFF</h1>
+          </div>
+
+
+          <div>
+            <img src="/c2-assets/india-gate-mock-up.png" alt="">
+          </div>
+        </div>
+      </div>
+
+      </section>
+
+      <section class="my-section">
+        <div class="hero bg-orange-100 h-[500px] w-[100%] mb-[120px]">
+          <div class="hero-content flex-col lg:flex-row-reverse">
+            <img
+              src="/c2-assets/hero-vegetables.png"
+              class="max-w-sm rounded-lg shadow-2xl" />
+            <div>
+              <h1 class="text-5xl font-bold">Vagetables!</h1>
+              <p class="py-6">
+                Due to the antioxidants and high amounts of fiber found in vegetables, increasing your consumption and expanding the variety of vegetables consumed can improve your gut health. A healthy gut does not only result in proper digestion, but also improves mental health, immunity, and prevention of many chronic diseases.
+              </p>
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+         
+        
+      </section>
+    </main>
+
+    <div class="bg-[#F5F2ED] w-[1320px] h-[457px]  rounded-[24px] mx-auto my-auto flex justify-center items-center align-middle gap-8 relative">
+      <div>
+        <img src="/c2-assets/vegetable-busket.png" alt="">
+      </div>
+      
+      <div>
+        <h1 class="text-5xl text-black font-bold mt-[30px]">Get Grocery News!</h1>
+        <p class="mt-[40px] font-semibold">Exclusive training tips, ticks, product deals and more.</p>
+        <input class="mt-[40px] w-[472px] h-[67px] bg-white rounded-[8px] p-[10px]" type="email" name="email" id="" placeholder="Enter Mail.."> <br>
+        <button class="mt-[40px] h-[45px] w-[146px] rounded-[8px] bg-[#179800] text-white font-normal">Subscribe</button>
+      </div>
+    </div>
+    
+    <footer class="h-[658px] w-full bg-[#179800] mt-[-250px]" >
+        
+         <div class="flex justify-around gap-4 ">
+
+          <div class="mt-[400px]">
+            <img src="/c2-assets/logo-footer.png" alt="">
+            <p class="w-[250px] mt-[20px] text-white font-light">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+          </div>
+
+          <div class="mt-[400px]">
+            <p class="text-white text-3xl font-semibold">Product</p>
+            <p class="mt-[20px] text-white text-3xl font-semibold">Services</p>
+            <p class="mt-[20px] text-white text-3xl font-semibold">Contact us</p>
+          </div>
+
+          <div class="mt-[450px]">
+            <h1 class="mt-[0px] text-white text-3xl font-semibold">Follow Us</h1>
+            <div class="flex gap-4 mt-[20px]">
+              <img src="/c2-assets/fb.png" alt="">
+            <img src="/c2-assets/google+.png" alt="">
+            <img src="/c2-assets/twitter.png" alt="">
+            </div>
+          </div>
+
+         </div>
+        
+    </footer>
+  </body>
+</html>
