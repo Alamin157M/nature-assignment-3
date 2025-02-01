@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nature's Platter</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script> -->
     <link
       href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
       rel="stylesheet"
@@ -24,6 +24,7 @@
     </style>
   </head>
   <body class="font-sora">
+
     <header class="w-[100%] h-[1298px] bg-linear-to-t from-[#F5F2ED] mb-[80px]">
       <div
         class="flex justify-between align-middle items-center ml-[50px] mr-[30px] mt-[15px]"
@@ -80,14 +81,14 @@
     </header>
 
     <main>
-      <section class="services">
+      <section class="services mb-[80px] text-start ">
         <h1
-          class="text-4xl text-[#179800] font-bold ml-[140px] mb-[80px] text-start"
+          class="text-4xl text-[#179800] mb-[40px] font-bold ml-[140px]"
         >
           Services
         </h1>
 
-        <div class="flex gap-6 mb-[90px] justify-center">
+        <div class="flex gap-6 mb-[90px] justify-center ">
           <div class="bg-[#EFEBE3] w-[424px] h-[367px] rounded-[16px] p-[32px]">
             <img
               class="ml-[110px] bg-[#FFFF] rounded-[50%] h-[150px] w-[150px] p-[30px]"
@@ -157,7 +158,7 @@
         </h1>
         <div class="flex">
           <div
-            class="h-[402px] shadow-lg p-[30px] rounded-[16px]"
+            class="h-[402px] w-[600px] shadow-lg p-[30px] rounded-[16px] bg-linear-to-t from-[#179800]"
           >
             <h1 class="mt-[0px] text-5xl font-semibold text-purple-500">30% Off</h1>
             <p class="mt-[20px] font-normal w-[260px]">
@@ -339,17 +340,19 @@
       </section>
 
       <section class="my-section">
-        <div class="hero bg-orange-100 h-[500px] w-[100%] mb-[120px]">
-          <div class="hero-content flex-col lg:flex-row-reverse">
-            <img
-              src="/c2-assets/hero-vegetables.png"
-              class="max-w-sm rounded-lg shadow-2xl" />
-            <div>
-              <h1 class="text-5xl font-bold">Vagetables!</h1>
-              <p class="py-6">
+        <div class="hero bg-orange-100 h-[500px] w-[100%] mb-[120px] flex justify-around items-center align-middle">
+              <div>
+                <h1 class="text-5xl font-bold">Vagetables!</h1>
+              <p class="w-[550px] mt-[40px]">
                 Due to the antioxidants and high amounts of fiber found in vegetables, increasing your consumption and expanding the variety of vegetables consumed can improve your gut health. A healthy gut does not only result in proper digestion, but also improves mental health, immunity, and prevention of many chronic diseases.
               </p>
-              <button class="btn btn-primary">Buy Now</button>
+              <button class="mt-[40px] h-[45px] w-[146px] rounded-[8px] bg-[#179800] text-white font-normal hover:bg-purple-400">Buy Now</button>
+              </div>
+              <div class="hero-content flex-col lg:flex-row-reverse">
+                <img
+                  src="/c2-assets/hero-vegetables.png"
+                  class="max-w-sm rounded-lg shadow-2xl" />
+                <div>
             </div>
           </div>
         </div>
